@@ -1,0 +1,18 @@
+{
+  "name": "gobarber",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:gustavosinacio/gobarber.git",
+  "author": "Gustavo Inacio <gsinacio94@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "sucrase": "^3.10.1"
+  },
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  }
+}
